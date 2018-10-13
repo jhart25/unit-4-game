@@ -49,4 +49,37 @@ $(document).ready(function() {
             loser();
         }
     });
-})
+
+    $("#bong").on("click", function() {
+        playerScore = playerScore + two;
+        $("#playerScore").text(playerScore);
+
+        if (playerScore === randomNumber) {
+            winner();
+        } else if (playerScore > randomNumber) {
+            loser();
+        }
+    });
+
+    $("#leaf").on("click", function() {
+        playerScore = playerScore + three;
+        $("#playerScore").text(playerScore)
+
+        if (playerScore === randomNumber) {
+            winner();
+        } else if (playerScore > randomNumber) {
+            loser();
+        }
+    });
+
+    $("#rick").on("click", function() {
+        playerScore = playerScore + four;
+        $("#playerScore").text(playerScore);
+
+        if (playerScore === randomNumber) {
+            winner();
+        } else if (playerScore > randomNumber) {
+            loser();
+        }
+    });
+});
