@@ -16,3 +16,14 @@ body {
 #gameRules {
     margin-top: -20px;
 }
+#playerScoreHome {
+    height: 100%;
+    width: 100%;
+}
+#targetHome {
+    height: 100%;
+    width: 100%;
+}
+#playerRecord {
+    font-size: 150%;
+}
