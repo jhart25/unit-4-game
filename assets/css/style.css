@@ -1,0 +1,18 @@
+.big-banner {
+    background-color: seagreen;
+    padding: 10px;
+}
+body {
+    background-image: url(../images/background2.jpg);
+    background-size: 100%;
+}
+.card-header{ 
+    background-color: seagreen; 
+}
+
+#crystalHome {
+    padding: 5px;
+}
+#gameRules {
+    margin-top: -20px;
+}
